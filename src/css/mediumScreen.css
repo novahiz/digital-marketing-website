@@ -1,0 +1,35 @@
+@media (max-width:910px) {
+
+    .header .header-container {
+        position: relative;
+    }
+
+    .header .header-container .nav {
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 58px;
+        left: 0;
+        right: 0;
+        height: 0.001px;
+        opacity: 0.001;
+        margin: 0;
+        padding: 0 !important;
+        overflow: hidden;
+        transition: var(--main-transition);
+    }
+
+    .header .header-container .nav.active {
+        min-height: 100px;
+        opacity: 1;
+    }
+
+    .header .header-container .nav .list {
+        margin: 0;
+    }
+
+    .header .header-container #burger {
+        display: block;
+    }
+
+}
