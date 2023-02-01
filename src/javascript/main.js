@@ -2,7 +2,6 @@
 // VARRIABLE£
 const burgerBtn = document.querySelector("#burger");
 const navMenu = document.querySelector(".nav")
-const txtAnime = document.querySelector(".services");
 //ecouteur d'évennement
 burgerBtn.addEventListener('click', burgerClick);
 
@@ -21,22 +20,29 @@ function burgerClick() {
 
 //typeJs
 
-    // Header Text Animation
+    // Landing Page Services animation
 
-    var sloganAnimation = new Typewriter(".slogan", {
+    var sloganAnimation = new Typewriter(".services-txt-anime", {
         loop: true,
         delay: 30,
     });
     
     sloganAnimation
-        .typeString(' Live <strong style = "color:#6d5404 ;" >Analysis!</strong>')
-        .pauseFor(1000)
-        .deleteChars(9)
-        .typeString('<strong style = "color: blue;" >Trade!</strong>')
+        .typeString('Community Manegement')
         .pauseFor(1000)
         .deleteAll()
-        .typeString('Des Astus <span style="color: green;">Gratuit !</span>')
+        .typeString('Rédaction Web')
         .pauseFor(1000)
+        .deleteAll()
+        .typeString('Création de <strong style = "color: yellow;" >Site web</strong>')
+        .pauseFor(1000)
+        .deleteChars(8)
+        .typeString('<span style="color: pink;">Logo</span>')
+        .pauseFor(1000)
+        .deleteChars(4)
+        .typeString('<span style="color: skyblue;">Flyer</span>')
+        .pauseFor(1000)
+        .deleteAll()
     .start();
 
 // End TypeJs
