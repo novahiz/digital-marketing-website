@@ -24,7 +24,7 @@
 }
 
 .main-container .landing-page .left .container .title {
-    color: var(--color-primary);
+    color: var(--color-2);
     text-transform: uppercase;
     padding: 50px 0;
 }
@@ -35,7 +35,7 @@
 }
 
 .main-container .landing-page .left .container .pg {
-    color: var(--color-4);
+    color: var(--color-2);
 }
 
 .main-container .landing-page .left .more {
@@ -43,11 +43,32 @@
     padding: 10px;
     margin: 50px 0;
     text-transform: uppercase;
-    color: rgb(169, 173, 177);
+    color: var(--color-white);
+    background-image: var(--gradient-1);
     border: solid 1px rgb(169, 173, 177);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: var(--main-transition);
 }
 
-.main-container .landing-page .right {
+.main-container .landing-page .left .more:hover {
+    color: var(--color-white);
+    background-image: var(--gradient-2);
+    border: 1px solid var(--color-primary);
+}
+
+
+
+.main-container .landing-page .right img{
+    width: 500px;
+}
+
+.main-container .services-diapo {
+    position: relative;
+    top: -50px;
+    min-height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(33, 79, 119, 0.322);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
