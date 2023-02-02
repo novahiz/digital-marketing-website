@@ -1,13 +1,20 @@
 .main-container .landing-page {
+    padding: 70px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-container .landing-page .landing-page-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    backdrop-filter: blur(10px);
+    
 }
 
 .main-container .landing-page .left {
-    padding:100px 20px;
+    padding: 20px;
 }
 
 .main-container .landing-page .left {
@@ -24,7 +31,7 @@
 }
 
 .main-container .landing-page .left .container .title {
-    color: var(--color-2);
+    color: var(--color-1);
     text-transform: uppercase;
     padding: 50px 0;
 }
@@ -35,7 +42,7 @@
 }
 
 .main-container .landing-page .left .container .pg {
-    color: var(--color-2);
+    color: var(--color-4);
 }
 
 .main-container .landing-page .left .more {
@@ -59,16 +66,60 @@
 
 
 .main-container .landing-page .right img{
-    width: 500px;
+    max-width: 500px;
 }
 
-.main-container .services-diapo {
+.main-container .ya-intro {
+    position: relative;
+    width: 100%;
+    background-color: var(--color-white);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-container .ya-intro .container {
     position: relative;
     top: -50px;
-    min-height: 400px;
-    width: 100%;
+    max-width: 90%;
     margin: 0 auto;
-    background-color: rgba(33, 79, 119, 0.322);
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
+    border-radius: 50px;
+    background-color: var(--color-white-1);
+    box-shadow: 0 0 3px rgba(0 , 0, 0, 0.01);
+
+}
+
+.main-container .ya-intro .container .title {
+    color: rgb(53, 53, 53);
+    text-align: center;
+    padding:100px 20px 20px 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    text-transform: uppercase;
+}
+
+.main-container .ya-intro .container .block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.main-container .ya-intro .container .block img {
+    width: 400px;
+    padding: 20px;
+}
+
+.main-container .ya-intro .container .block .pg {
+    padding: 20px;
+    max-width: 600px;
+    color: var(--text-on-white);
+    line-height: 20px;
+}
+
+.main-container .services-section  {
+    width: 100%;
+    height: 1000px;
+    background-color: var(--color-white-1);
 }

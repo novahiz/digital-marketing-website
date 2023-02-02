@@ -1,20 +1,22 @@
 /*Déclaration des variables css*/
 
 :root {
-    --color-primary: rgb(122, 0, 170);
-    --color-white: #fff;
+    --color-primary: rgba(122, 0, 170, 0.685);
+    --color-white: rgba(255, 255, 255, 0.384);
+    --color-white-1:rgb(228, 228, 228);
     --color-pink:rgb(209, 17, 81);
     --color-yellow:rgb(129, 110, 3);
     --color-blue:rgb(3, 36, 182);
-    --nav-color:rgb(90, 90, 90);
-    --nav-hover-color:rgb(102, 0, 170);
+    --nav-color:rgba(255, 255, 255, 0.712);
+    --nav-hover-color:rgb(255, 255, 255);
     --color-1: #f1f1f1;
     --color-2: #333;
     --color-3: rgb(152, 203, 216);
-    --color-4:rgb(143, 138, 138);
+    --color-4:rgb(196, 196, 196);
+    --text-on-white:var(--color-2);
     --gradient-1:linear-gradient(160deg,var(--color-blue), var(--color-pink));
-
     --gradient-2:linear-gradient(160deg,var(--color-blue), var(--color-primary));
+    --gradient-3:linear-gradient(160deg, rgb(122, 22, 110), rgb(17, 100, 139));
     --main-transition:cubic-bezier(0.39, 0.575, 0.565, 1) .3s;
 }
 /*---------------------------------------reset Style*/
@@ -42,8 +44,8 @@ li {
 /* ---------------------------------------end reset*/
 
 body {
-    background-color: var(--color-1);
     font-size: 1rem;
-    color: var(--color-2);
+    background-image: var(--gradient-3);
     background-repeat: no-repeat;
+    height: 300vh;
 }
