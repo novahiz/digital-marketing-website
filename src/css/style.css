@@ -17,6 +17,9 @@
     --gradient-1:linear-gradient(160deg,var(--color-blue), var(--color-pink));
     --gradient-2:linear-gradient(160deg,var(--color-blue), var(--color-primary));
     --gradient-3:linear-gradient(160deg, rgb(122, 22, 110), rgb(17, 100, 139));
+    --gradient-4:linear-gradient(60deg, rgb(1, 24, 2), rgb(43, 43, 43));
+    --gradient-5:linear-gradient(140deg, rgb(0, 150, 155), rgb(2, 44, 63));
+    --gradient-6:linear-gradient(110deg, rgb(122, 22, 110), rgb(6, 4, 161));
     --main-transition:cubic-bezier(0.39, 0.575, 0.565, 1) .3s;
 }
 /*---------------------------------------reset Style*/
