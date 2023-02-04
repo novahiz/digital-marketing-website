@@ -131,9 +131,10 @@
 
 .main-container .services-section .services-section-container .title {
     text-transform: uppercase;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 2em;
     padding:50px 20px;
+    color: var(--color-primary);
 }
 
 .main-container .services-section .services-section-container .cards {
@@ -165,24 +166,12 @@
     background-image: var(--gradient-6);
 }
 
-.main-container .services-section .services-section-container .cards .card.c1:hover {
-    background-image: var(--gradient-4);
-}
-
 .main-container .services-section .services-section-container .cards .card.c2 {
     background-image: var(--gradient-5);
 }
 
-.main-container .services-section .services-section-container .cards .card.c2:hover {
-    background-image: var(--gradient-4);
-}
-
 .main-container .services-section .services-section-container .cards .card.c3 {
     background-image: var(--gradient-6);
-}
-
-.main-container .services-section .services-section-container .cards .card.c3:hover {
-    background-image: var(--gradient-4);
 }
 
 .main-container .services-section .services-section-container .cards .card .block {
