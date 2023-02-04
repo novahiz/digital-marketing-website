@@ -143,7 +143,6 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    transition: var(--main-transition);
 } 
 
 .main-container .services-section .services-section-container .cards .card {
@@ -155,14 +154,15 @@
     min-height: 500px;
     margin: 20px;
     border-radius: 30px;
-    background-color: var(--color-white-1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.089);
-    transition: var(--main-transition);
+    transition: .3s;
+}
+
+.main-container .services-section .services-section-container .cards .card:hover > img {
+    transform: scale(1.1);
 }
 
 .main-container .services-section .services-section-container .cards .card.c1 {
     background-image: var(--gradient-6);
-    transition: var(--main-transition);
 }
 
 .main-container .services-section .services-section-container .cards .card.c1:hover {
@@ -171,7 +171,6 @@
 
 .main-container .services-section .services-section-container .cards .card.c2 {
     background-image: var(--gradient-5);
-    transition: var(--main-transition);
 }
 
 .main-container .services-section .services-section-container .cards .card.c2:hover {
@@ -180,7 +179,6 @@
 
 .main-container .services-section .services-section-container .cards .card.c3 {
     background-image: var(--gradient-6);
-    transition: var(--main-transition);
 }
 
 .main-container .services-section .services-section-container .cards .card.c3:hover {
@@ -195,6 +193,7 @@
 }
 
 .main-container .services-section .services-section-container .cards .card img {
+    transition: .3s;
     width: 200px;
 }
 
