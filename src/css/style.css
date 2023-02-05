@@ -4,6 +4,7 @@
     --color-primary: rgba(122, 0, 170, 0.685);
     --color-white: rgba(255, 255, 255, 0.384);
     --color-white-1:rgb(228, 228, 228);
+    --color-white-2:#e5e2e2;
     --color-pink:rgb(209, 17, 81);
     --color-yellow:rgb(129, 110, 3);
     --color-blue:rgb(3, 36, 182);
@@ -50,5 +51,5 @@ body {
     font-size: 1rem;
     background-image: var(--gradient-3);
     background-repeat: no-repeat;
-    height: 300vh;
+    height: 1000vh;
 }

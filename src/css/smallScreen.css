@@ -1,0 +1,31 @@
+
+@media (min-width:300px) and (max-width:500px) {
+
+    .header .header-container .nav {
+        height: 0.001px;
+        opacity: 0.001;
+        transition: var(--main-transition);
+    }
+
+    .header .header-container .nav.active {
+        min-height: 500px;
+    }
+
+
+    .header .header-container .nav .list {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 0.001px;
+        opacity: 0.001;
+        transition: var(--main-transition);
+    }
+
+    .header .header-container .nav.active .list {
+        min-height: 400px;
+        opacity: 1;
+    }
+
+    .main-container .intro .container .block {
+        overflow: hidden;
+    }
+}

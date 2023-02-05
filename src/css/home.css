@@ -75,7 +75,7 @@
     background-color: var(--color-white-1);
 }
 
-.main-container .ya-intro .container {
+.main-container .intro .container {
     position: relative;
     top: -50px;
     max-width: 90%;
@@ -86,7 +86,7 @@
 
 }
 
-.main-container .ya-intro .container .title {
+.main-container .intro .container .title {
     color: rgb(53, 53, 53);
     text-align: center;
     padding:100px 20px 20px 20px;
@@ -95,7 +95,7 @@
     text-transform: uppercase;
 }
 
-.main-container .ya-intro .container .block {
+.main-container .intro .container .block {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -104,12 +104,12 @@
     width: 100%;
 }
 
-.main-container .ya-intro .container .block img {
+.main-container .intro .container .block img {
     width: 400px;
     padding: 20px;
 }
 
-.main-container .ya-intro .container .block .pg {
+.main-container .intro .container .block .pg {
     padding: 20px;
     max-width: 600px;
     color: var(--text-on-white);
@@ -118,7 +118,6 @@
 
 .main-container .services-section  {
     width: 100%;
-    height: 1000px;
     background-color: var(--color-white-1);
 }
 
@@ -126,7 +125,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;    
+    padding: 0 20px 0 20px;
+    position: relative;
+    border-radius: 50px;
+    top: 70px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--color-white-1);
 }
 
 .main-container .services-section .services-section-container .title {
@@ -194,4 +199,25 @@
 .main-container .services-section .services-section-container .cards .card p {
     width: 250px;
     color: var(--color-4);
+}
+
+.main-container .other-services {
+    margin-top: 120px;
+}
+
+.main-container .other-services .container .title {
+    padding: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-white-1);
+    background-color: transparent;
+}
+
+.main-container .other-services .container .text {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    color: var(--color-white-2);
+    background-color: transparent;
+    
 }
