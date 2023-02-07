@@ -32,7 +32,7 @@
 }
 
 .main-container .landing-page .left .container .title {
-    color: var(--color-1);
+    color: var(--color-2);
     text-transform: uppercase;
     padding: 50px 0;
 }
@@ -43,7 +43,7 @@
 }
 
 .main-container .landing-page .left .container .pg {
-    color: var(--color-4);
+    color: var(--color-3);
 }
 
 .main-container .landing-page .left .more {
@@ -73,7 +73,6 @@
 .main-container .intro {
     position: relative;
     width: 100%;
-    background-color: var(--color-white-1);
 }
 
 .main-container .intro .container {
@@ -117,7 +116,6 @@
 
 .main-container .services-section  {
     width: 100%;
-    background-color: var(--color-white-1);
 }
 
 .main-container .services-section .services-section-container {
@@ -128,7 +126,6 @@
     border-radius: 50px;
     width: 90%;
     margin: 0 auto;
-    background-color: var(--color-white-1);
 }
 
 .main-container .services-section .services-section-container .title {
@@ -206,7 +203,7 @@
     padding: 25px;
     text-align: center;
     text-transform: uppercase;
-    color: var(--color-white-1);
+    color: var(--color-primary);
     background-color: transparent;
 }
 
@@ -214,7 +211,7 @@
     max-width: 800px;
     padding: 20px;
     margin: 0 auto;
-    color: var(--color-white-2);
+    color: var(--color-white-3);
     background-color: transparent;
     
 }
@@ -233,38 +230,63 @@
 }
 
 .main-container .witness .witness-cards .card {
+    margin: 25px;
+    background-image: var(--gradient-3);
+    box-shadow: 0 0  10px var(--color-transparent);
+    border-radius: 10px;
+}
+
+.main-container .witness .witness-cards .card .card-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 350px;
-    background-color: white;
-    margin: 25px;
-    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 100px;
+    transition: var(--main);
 }
 
-.main-container .witness .witness-cards .card img {
-    border: inset var(--color-primary);
+.main-container .witness .witness-cards .card .card-container:hover img {
+    transform: scale(1.1);
+}
+
+.main-container .witness .witness-cards .card .card-container img {
+    margin: 10px;
+    border: dotted 1px var(--color-primary);
     border-radius: 100%;
+    transition: var(--main-transition);
 }
 
-.main-container .witness .witness-cards .card .customer-info {
+.main-container .witness .witness-cards .card .card-container img:hover {
+    transform: rotate(10deg);
+}
+
+.main-container .witness .witness-cards .card .card-container .customer-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 25px;
 }
 
-.main-container .witness .witness-cards .card .customer-name {
+.main-container .witness .witness-cards .card .card-container .customer-name {
     padding: 10px 0;
     text-transform: uppercase;
+    color: var(--color-white-1);
 }
 
-.main-container .witness .witness-cards .card .customer-job {
+.main-container .witness .witness-cards .card .card-container .customer-job {
     padding: 10px 0;
     text-transform: capitalize;
+    font-style: italic;
+    color: var(--color-white-2);
 }
 
-.main-container .witness .witness-cards .card .customer-media {
+.main-container .witness .witness-cards .card .card-container .txt {
+    padding: 15px;
+    color: var(--color-white-3);
+}
+
+.main-container .witness .witness-cards .card .card-container .customer-media {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -272,7 +294,12 @@
     padding: 25px;
 }
 
-.main-container .witness .witness-cards .card .customer-media .icon {
+.main-container .witness .witness-cards .card .card-container .customer-media .icon {
     font-size: 25px;
-    color: var(--color-primary);
+    color: var(--color-white-1);
+    transition: var(--main-transition);
+}
+
+.main-container .witness .witness-cards .card .card-container .customer-media .icon:hover {
+    transform: scale(1.1);
 }
