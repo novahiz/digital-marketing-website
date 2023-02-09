@@ -7,10 +7,10 @@
     --color-white-2:rgba(255, 255, 255, 0.801);
     --color-white-3:rgba(255, 255, 255, 0.63);
     --color-pink:rgb(209, 17, 81);
-    --color-yellow:rgb(129, 110, 3);
+    --color-yellow:yellowgreen;
     --color-blue:rgb(3, 36, 182);
-    --nav-color:rgba(99, 97, 97, 0.712);
-    --nav-hover-color:rgb(26, 0, 173);
+    --nav-color:rgb(150, 150, 150);
+    --nav-hover-color:rgb(255, 255, 255);
     --color-1: #f1f1f1;
     --color-2: #333;
     --color-3: rgb(116, 116, 116);

@@ -28,12 +28,6 @@ function burgerClick() {
     });
     
     sloganAnimation
-        .typeString('Community Manegement')
-        .pauseFor(1000)
-        .deleteAll()
-        .typeString('Rédaction Web')
-        .pauseFor(1000)
-        .deleteAll()
         .typeString('Création de <strong style = "color: var(--color-blue);" >Site web</strong>')
         .pauseFor(1000)
         .deleteChars(8)
@@ -41,6 +35,12 @@ function burgerClick() {
         .pauseFor(1000)
         .deleteChars(4)
         .typeString('<span style="color: var(--color-pink);">Flyer</span>')
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString('Community Manegement')
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString('Rédaction Web')
         .pauseFor(1000)
         .deleteAll()
     .start();
